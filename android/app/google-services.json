@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "887908655917",
+    "project_id": "mobproject-t1234",
+    "storage_bucket": "mobproject-t1234.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887908655917:android:e2f20f976e50f014f7a9a4",
+        "android_client_info": {
+          "package_name": "com.appnotification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5uHOmBOATfCIyo911bZoWGKIo1T6pUZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
