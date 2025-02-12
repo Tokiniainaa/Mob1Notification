@@ -29,6 +29,35 @@ async function requestUserPermission() {
        requestUserPermission();
        getToken();
   }, []);
-}
+    return (
+      <View style={styles.container}>
+            <Text style={styles.title}> PUSH NOTIFICATION</Text>
+            <Text style={styles.subtitle}>GET A NOTIFICATION FROM FIREBASE</Text>
+          </View>
+        );
+      };
+
+      const styles = StyleSheet.create({
+        container: {
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: '#928DAB',
+          padding: 20,
+        },
+        title: {
+          fontSize:30,
+          fontWeight: 'bold',
+          color: '#1F1C2C',
+          marginBottom: 10,
+          textAlign: 'center',
+        },
+        subtitle: {
+          fontSize: 16,
+          color: '#1F1C2C',
+          textAlign: 'center',
+        }
+  });
+
 
 export default App;
